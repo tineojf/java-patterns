@@ -1,11 +1,11 @@
-package composite.tree;
+package composite;
 
 import java.util.ArrayList;
 
-public class CompositeVagon implements Component {
+public class CompositeTren implements Component {
     private final ArrayList<Component> components;
 
-    public CompositeVagon(ArrayList<Component> components) {
+    public CompositeTren(ArrayList<Component> components) {
         this.components = components;
     }
 

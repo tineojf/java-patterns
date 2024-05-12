@@ -1,4 +1,4 @@
-package composite.tree;
+package composite;
 
 public class LeafCirculo implements Component {
     private final double radio;

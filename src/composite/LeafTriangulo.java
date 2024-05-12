@@ -1,4 +1,4 @@
-package composite.tree;
+package composite;
 
 public class LeafTriangulo implements Component {
     private final double base;

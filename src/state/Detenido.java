@@ -1,9 +1,7 @@
-package state.stateclass;
-
-import state.context.MP3;
+package state;
 
 public class Detenido implements State {
-    private MP3 context;
+    private ContextMP3 context;
 
     @Override
     public void btnPlayPause() {
@@ -17,7 +15,7 @@ public class Detenido implements State {
     }
 
     @Override
-    public void setContext(MP3 context) {
+    public void setContext(ContextMP3 context) {
         this.context = context;
     }
 }

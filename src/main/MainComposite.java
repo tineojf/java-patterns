@@ -1,10 +1,10 @@
-package composite;
+package main;
 
-import composite.tree.*;
+import composite.*;
 
 import java.util.ArrayList;
 
-public class Main {
+public class MainComposite {
     public static void main(String[] args) {
         // Figuras
         LeafCirculo circulo = new LeafCirculo(1);

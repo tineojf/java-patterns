@@ -1,11 +1,9 @@
-package state.context;
+package state;
 
-import state.stateclass.State;
-
-public class MP3 {
+public class ContextMP3 {
     private State estado;
 
-    public MP3(State estado) {
+    public ContextMP3(State estado) {
         changeState(estado);
     }
 
