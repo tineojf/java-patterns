@@ -1,5 +1,5 @@
 package observer;
 
 public interface Observer {
-    void notification();
+    String update(double precio, String nombre);
 }
