@@ -15,5 +15,5 @@ public abstract class Handler {
         this.nextHandler = nextHandler;
     }
 
-    public abstract void processRequest(double mount);
+    public abstract void analyzeProduct(Articulo articulo);
 }
